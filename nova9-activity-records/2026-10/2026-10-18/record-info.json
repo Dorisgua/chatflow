@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-18",
+  "record_count": 2,
+  "encryption": "AES-256-GCM + PBKDF2-HMAC-SHA256",
+  "model": "MiniCPM-V 4.6 Q4_K_M",
+  "images_saved": false,
+  "videos_saved": false
+}
