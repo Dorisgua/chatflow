@@ -1,0 +1,4 @@
+fdf163a68619f6d004fd134a3ec205397687a37da10b75da30c023ee6b65453c  app/src/main/AndroidManifest.xml
+527f5a278c458ed1a86029e7dd87e38c80263bb2256339a0b78a2ab765461a29  app/src/main/java/local/nova9/camera/LocalMjpegServer.java
+39e9ce683336e7484677e98abe6858374361990d05982b70ff956898287c165b  app/src/main/java/local/nova9/camera/MainActivity.java
+ab1c4f73e027de220078ecc2bef376b5bcc6b5a9f4c4456be18a652f454c056b  app/src/main/java/local/nova9/camera/YuvJpegEncoder.java
