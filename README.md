@@ -21,6 +21,33 @@
 |---|---|
 | `nova9-activity-records` | 按日期保存加密详细记录和最小化的明文活动总结，不与程序代码或备份混放。 |
 
+## 模型下载与配置
+
+本项目使用 **MiniCPM-V 4.6** 进行本地场景理解，模型文件需单独下载，不包含在本仓库中。
+
+| 模型文件 | 用途 | 下载地址 | 放置目录 |
+|---|---|---|---|
+| `MiniCPM-V-4_6-Q4_K_M.gguf`（约 505 MiB） | MiniCPM-V 4.6 的 Q4_K_M 量化主模型 | [下载](https://modelscope.cn/models/OpenBMB/MiniCPM-V-4.6-gguf/resolve/master/MiniCPM-V-4_6-Q4_K_M.gguf) | `nova9-local-scene/models/` |
+| `mmproj-model-f16.gguf`（约 1,057 MiB） | MiniCPM-V 配套视觉投影组件 | [下载](https://modelscope.cn/models/OpenBMB/MiniCPM-V-4.6-gguf/resolve/master/mmproj-model-f16.gguf) | `nova9-local-scene/models/` |
+| `yolo26n.onnx`（约 9.5 MiB） | YOLO26n 物体检测模型 | [下载](https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26n.onnx) | `nova9-local-analyzer/models/` |
+
+下载后，目录结构应为：
+
+```text
+chatflow/
+├─ nova9-local-scene/
+│  └─ models/
+│     ├─ MiniCPM-V-4_6-Q4_K_M.gguf
+│     └─ mmproj-model-f16.gguf
+└─ nova9-local-analyzer/
+   └─ models/
+      └─ yolo26n.onnx
+```
+
+如果 `models` 文件夹不存在，请自行创建。请保持文件名不变；场景理解功能需要同时具备主模型和视觉投影组件。模型校验值见对应项目目录中的 `SHA256.txt`。
+
+以上仅为模型配置，运行程序还需要 Java、llama.cpp 或 ONNX Runtime 等对应依赖。
+
 ## 产品目标
 
 产品不是单纯“识别椅子或杯子”，而是帮助用户低负担地回顾一天，例如：
