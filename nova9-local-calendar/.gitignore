@@ -1,0 +1,8 @@
+build/
+*.class
+*.log
+*.tmp
+
+# User data belongs in the sibling nova9-activity-records directory.
+nova9-activity-records/
+*.enc

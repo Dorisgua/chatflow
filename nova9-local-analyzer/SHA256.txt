@@ -1,0 +1,12 @@
+Files verified on 2026-08-16.
+
+Ultralytics YOLO26n ONNX
+Source: https://github.com/ultralytics/assets/releases/download/v8.4.0/yolo26n.onnx
+SHA-256: 2E947B787D9E787B93A16772A5F55B1D4D8C4D86F53146149C5D6A642442D6F7
+Verification: matches the sha256 digest published by the GitHub v8.4.0 release API.
+
+Microsoft ONNX Runtime Java 1.26.0
+Source: https://repo.maven.apache.org/maven2/com/microsoft/onnxruntime/onnxruntime/1.26.0/onnxruntime-1.26.0.jar
+SHA-256: CF5A48C6F5D07B15F10634B80433DDCE8F5892662B1A122BBBC0907F4F442C60
+SHA-1: FF6F89053817ACDD845DC37032FA4BA3359616D5
+Verification: the SHA-1 matches the checksum published by Maven Central.

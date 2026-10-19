@@ -1,0 +1,19 @@
+Verified sources for Nova 9 local scene understanding.
+
+OpenBMB MiniCPM-V 4.6 Q4_K_M
+File: models/MiniCPM-V-4_6-Q4_K_M.gguf
+Source: https://modelscope.cn/models/OpenBMB/MiniCPM-V-4.6-gguf/resolve/master/MiniCPM-V-4_6-Q4_K_M.gguf
+Official SHA-256: 6B0C74962C44BC6BF4B655B9B02C13EDA9D5A0491543AE976D1AC18E4B7892E2
+Cross-check: matches OpenBMB's official Hugging Face repository.
+
+OpenBMB MiniCPM-V 4.6 F16 multimodal projector
+File: models/mmproj-model-f16.gguf
+Source: https://modelscope.cn/models/OpenBMB/MiniCPM-V-4.6-gguf/resolve/master/mmproj-model-f16.gguf
+Official SHA-256: CA931D861D0801D9003E50697CD764721A334107C0E0415A51168EE1938462DE
+Cross-check: matches OpenBMB's official Hugging Face repository.
+
+ggml-org llama.cpp Windows x64 CPU b10448
+File: runtime/llama-b10448-bin-win-cpu-x64.zip
+Source: https://github.com/ggml-org/llama.cpp/releases/download/b10448/llama-b10448-bin-win-cpu-x64.zip
+Official SHA-256: 9038C34D23769AC04A1F59835F41129F3810B3144BB8EDC35183507BAF827435
+Cross-check: GitHub Release API published digest.

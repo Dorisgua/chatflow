@@ -1,0 +1,15 @@
+# 大模型：单独交接，保留原目录结构
+/nova9-local-scene/models/
+
+# 本地开发工具：包含超过 100 MB 的安装包和 Java 文件
+/nova9-local-camera/.tooling/
+
+# 私人活动记录
+/nova9-activity-records/
+
+# 手机应用签名密钥
+/nova9-local-camera/signing-local/
+
+# 临时依赖和编译中间文件
+/.tmp/
+/nova9-local-camera/build-work/

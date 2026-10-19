@@ -1,0 +1,9 @@
+.gradle/
+.tooling/
+build-work/
+signing-local/
+.idea/
+local.properties
+build/
+app/build/
+*.iml

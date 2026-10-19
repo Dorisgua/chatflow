@@ -1,0 +1,46 @@
+Nova 9 本地摄像头构建透明度报告
+生成时间：2026-08-15 23:39:49 +08:00
+
+APK：D:\Documents\chatflow\nova9-local-camera\dist\Nova9LocalCamera-v0.1.0.apk
+APK SHA-256：a79ba811fff01ef12048c531a8d948427ebd83e453de5d0e8c42d4b70e8fecb7
+源码哈希清单 SHA-256：d0e8071bfc3cd22d105e1af1f4b9d4254400163fbccf01cd152503449b613945
+
+运行时第三方依赖：无
+云服务：无
+广告或统计 SDK：无
+
+包名：
+local.nova9.camera
+
+权限：
+package: local.nova9.camera
+uses-permission: name='android.permission.CAMERA'
+uses-permission: name='android.permission.INTERNET'
+uses-permission: name='android.permission.ACCESS_NETWORK_STATE'
+
+签名验证：
+Verifies
+Verified using v1 scheme (JAR signing): true
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): true
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: false
+Number of signers: 1
+Signer #1 certificate DN: CN=Nova9 Local Test, OU=Local Build, O=Source Available, C=CN
+Signer #1 certificate SHA-256 digest: 82531dfbafe0487e5cdc73a2ce0a4b713cd078128ec4b85740241b5b414f5558
+Signer #1 certificate SHA-1 digest: a0e22b9eef6ff4bc5249a8b2ece7b84bd6bce80c
+Signer #1 certificate MD5 digest: d4b4621d22a22676a80d8f2e4515e08d
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 3072
+Signer #1 public key SHA-256 digest: 967679edcae373ca7ee69a4580bed4022b3e8db550c91009512d2417324fad54
+Signer #1 public key SHA-1 digest: 3e2bdb0151520331571f1675c3a16bb098ae2986
+Signer #1 public key MD5 digest: fa9c96304cc27018b7aa09b07c768a9f
+
+APK 内部文件：
+AndroidManifest.xml
+resources.arsc
+classes.dex
+META-INF/LOCAL-TE.SF
+META-INF/LOCAL-TE.RSA
+META-INF/MANIFEST.MF
